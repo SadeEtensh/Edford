@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Power | Engineering</title>
+    <link rel = "icon" type = "image/jpg" href = "images/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo1.png"></a>
+            </div>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul> 
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a>
+                        <ul>
+                            <li><a href="services.html">Solar Power </a></li>
+                            <li><a href="services.html">Electro Mechanical</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+
+    </section>
+<!-- -----contact us --- -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17466.182200193733!2d38.768144423115594!3d9.002825289537686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85981e3e91d9%3A0x56d6dba6338815aa!2sJupiter%20International%20Hotel%2C%20Cazanchise!5e1!3m2!1sen!2set!4v1623604909455!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+    
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road ABC buling</h5>
+                        <p>Addis Ababa Kazanchis, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+251919839049</h5>
+                        <p>Addis Ababa Kazanchis, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>info@freepower.com</h5>
+                        <p>Addis Ababa Kazanchis, IN</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <h5>Contact Us </h5>
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your Name" required>
+                    <input type="email" name="email" placeholder="Enter your Email" required>
+                    <input type="text" name="subject" placeholder="Enter your Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send message</button>
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <!-- ------Footer-- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://web.telegram.org/#/login" target="_blank"><i class="fa fa-telegram"></i></a>
+        </div> 
+
+    </section>
+
+
+    <!-- ----------Javascript for Toggle Menu--- -->
+<script>
+    var navlinks =document.getElementById("navlinks");
+    function showMenu() { 
+        navlinks.style.right="0";
+    }
+    function hideMenu() {
+        navlinks.style.right="-200px";
+    } 
+
+</script>
+</body>
+</html>

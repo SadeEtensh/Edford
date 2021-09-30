@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Power | Engineering</title>
+    <link rel = "icon" type = "image/jpg" href = "images/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo1.png"></a>
+            </div>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul> 
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a>
+                        <ul>
+                            <li><a href="services.html">Solar Power </a></li>
+                            <li><a href="services.html">Electro Mechanical</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Program For 2021 </h1>
+        
+
+    </section>
+
+
+    <!-- -----Blog page conten--- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate & Online Program For 2021</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy 
+                    text ever since the 1500s, when an unknown printer <br>took a
+                     galley of type and scrambled it to make a type specimen book. 
+                     It has survived not only five centuries, but also the leap into 
+                     electronic typesetting, remaining essentially unchanged. It was
+                      popularised in the 1960s with the release of Letraset sheets
+                       containing Lorem Ipsum passages, and more recently with desktop 
+                       publishing software like Aldus PageMaker including versions of 
+                       Lorem Ipsum.</p> <br>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy 
+                        text ever since the 1500s, when an unknown printer <br>took a
+                         galley of type and scrambled it to make a type specimen book. 
+                         It has survived not only five centuries, but also the leap into 
+                         electronic typesetting, remaining essentially unchanged. It was
+                          popularised in the 1960s with the release of Letraset sheets
+                           containing Lorem Ipsum passages, and more recently with desktop 
+                           publishing software like Aldus PageMaker including versions of 
+                           Lorem Ipsum.</p> <br>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy 
+                            text ever since the 1500s, when an unknown printer <br>took a
+                             galley of type and scrambled it to make a type specimen book. 
+                             It has survived not only five centuries, but also the leap into 
+                             electronic typesetting, remaining essentially unchanged. It was
+                              popularised in the 1960s with the release of Letraset sheets
+                               containing Lorem Ipsum passages, and more recently with desktop 
+                               publishing software like Aldus PageMaker including versions of 
+                               Lorem Ipsum.</p>
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="Submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics </span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Business Analytics </span>
+                        <span>29</span>
+                    </div>
+                    <div>
+                        <span>Business Analytics </span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>AutoCAD </span>
+                        <span>21</span>
+                    </div>
+        </div>
+    </section>
+    
+
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://web.telegram.org/#/login" target="_blank"><i class="fa fa-telegram"></i></a>
+        </div> 
+
+    </section>
+
+
+    <!-- ----------Javascript for Toggle Menu--- -->
+<script>
+    var navlinks =document.getElementById("navlinks");
+    function showMenu() { 
+        navlinks.style.right="0";
+    }
+    function hideMenu() {
+        navlinks.style.right="-200px";
+    } 
+
+</script>
+</body>
+</html>
